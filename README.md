@@ -2,7 +2,7 @@
 
 ## Documentation on functions
 
-Ccore file:
+Core file:
 
 scrub - removed the funny quotes that happen to be in the Alice in Wonderland book file
 
