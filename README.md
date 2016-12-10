@@ -18,7 +18,7 @@ run - called when run on the command line
 
 Ensure [lein](http://leiningen.org/) is installed.
 
-Clone the repo at [word-indexer](https://github.com/rubygeek/world_indexer)
+Clone the repo at [word-indexer](https://github.com/rubygeek/word_indexer)
 
 CD into the directory and run 
 
