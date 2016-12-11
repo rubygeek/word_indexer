@@ -7,4 +7,6 @@
   :profiles {:dev {:dependencies [[org.clojure/tools.namespace "0.2.11"]]
                    :source-paths ["dev"]}}
   :main word-indexer.core/run
+
+  :repl-options {:init-ns user}
 )
