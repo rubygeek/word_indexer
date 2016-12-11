@@ -32,6 +32,22 @@ lein test
 
 `lein run [filename]`
 
+Output:
+
+```
+▶ lein run resources/chap1.txt
+ the        | 91
+ she        | 80
+ to         | 75
+ it         | 67
+ and        | 65
+ was        | 53
+ a          | 52
+ of         | 43
+ i          | 35
+ alice      | 28
+```
+
 Example (data file in resources directory): 
 
 `lein run resources/chap1.txt`
