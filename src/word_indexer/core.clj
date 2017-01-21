@@ -6,7 +6,7 @@
   (str/replace text #"’|‘" ""))
 
 (defn text-to-tokens [text]
-  (let [lower-text (clojure.string/lower-case text)] 
+  (let [lower-text (str/lower-case text)] 
     (re-seq #"\w+|\d" lower-text)))
 
 (defn run-indexer [text]
