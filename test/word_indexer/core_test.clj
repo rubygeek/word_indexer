@@ -2,9 +2,6 @@
   (:require [clojure.test :refer [deftest is]]
             [word-indexer.core :as core]))
 
-(deftest test-scrub 
-  (is (= "I wonder Ive how" (core/scrub "’I wonder I‘ve how‘"))))
-
 (deftest test-text-to-tokens
   (is (= ["a" "quick" "brown" "fox"]  (core/text-to-tokens "a quick brown fox"))))
 

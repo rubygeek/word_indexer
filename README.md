@@ -2,9 +2,7 @@
 
 ## Documentation on functions
 
-Core file:
-
-scrub - removed the funny quotes that happen to be in the Alice in Wonderland book file
+Core file functions:
 
 text-to-token - takes a string and splits it on a word boundary or a decimal and lower cases the string 
 
@@ -14,13 +12,15 @@ format-row - solely for formatting the vector of maps of word and counts
 
 run - called when run on the command line 
 
+
+
 ## Running locally
 
 Ensure [lein](http://leiningen.org/) is installed.
 
-Clone the repo at [word-indexer](https://github.com/rubygeek/word_indexer)
+Clone the repo at [clojure_word_indexer](https://github.com/rubygeek/clojure_word_indexer)
 
-CD into the directory and run 
+Change into the directory and run 
 
 `lein run resources/chap1.txt`
 

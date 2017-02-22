@@ -2,9 +2,6 @@
   (:require [clojure.string :as str]
             [clojure.java.io :as io]))
 
-(defn scrub [text]
-  (str/replace text #"’|‘" ""))
-
 (defn text-to-tokens [text]
   (let [lower-text (str/lower-case text)] 
     (re-seq #"\w+|\d" lower-text)))
